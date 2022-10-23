@@ -1,0 +1,23 @@
+
+
+
+.counters{
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    width: 200px;
+}
+
+.counter1{
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.counter2{
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}

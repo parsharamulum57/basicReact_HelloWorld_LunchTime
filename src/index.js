@@ -4,13 +4,17 @@ import './index.css';
 //import App from './App';
 import HelloWorld from './Helloworld';
 import Lunchtime from './Lunchtime';
+import Calc from './Calc';
 import reportWebVitals from './reportWebVitals';
+import CounterItems from './CounterItems';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Calc />
     <HelloWorld />
     <Lunchtime />
+    <CounterItems />
   </React.StrictMode>
 );
 
