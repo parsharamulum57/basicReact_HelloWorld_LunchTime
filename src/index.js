@@ -7,6 +7,7 @@ import Lunchtime from './Lunchtime';
 import Calc from './Calc';
 import reportWebVitals from './reportWebVitals';
 import CounterItems from './CounterItems';
+import CounterUsingHook from './CounterUsingHook';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +16,8 @@ root.render(
     <HelloWorld />
     <Lunchtime />
     <CounterItems />
+    <CounterUsingHook />
+
   </React.StrictMode>
 );
 
